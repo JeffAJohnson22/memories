@@ -9,6 +9,7 @@ export const getPosts = ( ) => async (dispatch) => {
         console.log(error.message)
     }
 }
+console.log('ornae')
 
 export const createPost = (post) => async (dispatch) => {
     try {
