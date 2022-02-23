@@ -9,8 +9,6 @@ export const getPosts = ( ) => async (dispatch) => {
         console.log(error.message)
     }
 }
-console.log('art')
-console.log('paint')
 
 export const createPost = (post) => async (dispatch) => {
     try {
