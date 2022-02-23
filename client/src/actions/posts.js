@@ -14,6 +14,11 @@ console.log('3')
 console.log('3')
 console.log('3')
 console.log('3')
+console.log('ornae')
+console.log('3')
+console.log('3')
+console.log('3')
+console.log('3')
 
 export const createPost = (post) => async (dispatch) => {
     try {
