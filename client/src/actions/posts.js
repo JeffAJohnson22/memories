@@ -9,7 +9,7 @@ export const getPosts = ( ) => async (dispatch) => {
         console.log(error.message)
     }
 }
-
+console.log('apple')
 export const createPost = (post) => async (dispatch) => {
     try {
         const {data} = await api.createPost(post)
